@@ -1,0 +1,29 @@
+<div class="content">
+    <h2>
+        Volume of the cyclinder
+    </h2>
+    <div class="id">
+        Radius=<input type="text"[(ngModel)]="radius"> Meters<br/>
+        Height=<input type="text"[(ngModel)]="height"> Meters<br/>
+        <input class="id" type="button" (click)="oncalculate() "value="CalculationArea"><br/>
+        Volume=<input type="text" [value]="volume" readonly> Meters <sup>3</sup><br/>
+    </div>
+</div>
+<style>
+    h2{
+background-color: aqua;
+color: blue;
+}
+.content {
+  display: block;
+  width: 100%;
+  background-color: #E6E6FA;
+  min-height: 200px;
+  margin-top: 100px;
+}
+.id{
+    text-align: center;
+    font-size: 25px;
+}
+
+</style>
