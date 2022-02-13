@@ -196,6 +196,7 @@ export class AppModule { }
   
 
 ## Output:
+![image](https://user-images.githubusercontent.com/94164665/153758905-f4b7b1be-6b21-45e8-84fb-d0314961eb25.png)
 
 
 ## Result:
